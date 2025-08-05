@@ -49,9 +49,13 @@ deepfake/
 ├── real/
 └── fake/
 ```  
----
-Download Dataset From here :  https://www.kaggle.com/code/srimantasingha/deepfakeimagedetection-96-91/input
---- 
+
+## 📂 Dataset
+
+The dataset used for this project can be found on Kaggle:
+
+👉 [Deepfake Image Detection Dataset](https://www.kaggle.com/code/srimantasingha/deepfakeimagedetection-96-91/input)
+
 ---
 
 ## 🔍 Project Workflow & Code Block Descriptions
