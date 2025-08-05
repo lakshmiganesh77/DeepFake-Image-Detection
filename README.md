@@ -39,13 +39,16 @@ CNNs automatically learn spatial hierarchies of features from input images, maki
 ## 📁 Dataset Structure
 
 The project expects the dataset to be organized as follows:
+
+```
 deepfake/
 ├── Train/
 │ ├── real/
 │ └── fake/
 └── Test/
 ├── real/
-└── fake/  
+└── fake/
+```  
 
 ---
 
