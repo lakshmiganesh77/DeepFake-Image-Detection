@@ -1,9 +1,8 @@
-# DeepFake-Image-Detection
-Deepfake Image Detector is a CNN-based classification model built with TensorFlow and Keras. It processes real and fake images with data augmentation, trains using a custom pipeline, and evaluates performance using a confusion matrix and classification report. Includes real-time prediction.
+# 🧠 DeepFake Image Detection – A Computer Vision Method for Synthetic Media Identification
 
-# 🧠 Deepfake Image Classification using CNN and TensorFlow
+In 2023, a hyper-realistic deepfake video featuring Indian actress Rashmika Mandanna went viral online, depicting her in a compromising scenario falsely. While completely AI-generated, the video was eerily realistic and prompted across-country discussions on digital ethics, consent, and disinformation. The event, as with most others, demonstrates the increasing abuse of deepfake technology to sway public opinion and destroy reputations.
 
-This project is a complete pipeline for classifying images as **real** or **fake (deepfake)** using a **Convolutional Neural Network (CNN)** built with **TensorFlow** and **Keras**. It serves as a beginner-to-intermediate level computer vision project built in **Google Colab** and is suitable for showcasing on GitHub and LinkedIn portfolios.
+Deepfakes are artificially created media—images, videos, and audio—produced by deep learning models like Generative Adversarial Networks (GANs). They mimic human expressions, voice, and face movements with breathtaking accuracy, rendering it ever more challenging to separate real from synthetic content. With the technology becoming more accessible, so is its potential for malignancy in areas like fake news, blackmail, election meddling, and tampering with evidence. Accurately developing real-time detection systems, therefore, has become imperative.
 
 ---
 
@@ -28,28 +27,25 @@ CNNs automatically learn spatial hierarchies of features from input images, maki
 
 ## 🛠️ Technologies & Libraries Used
 
-- **TensorFlow** & **Keras** – For building and training the CNN
-- **Matplotlib** – For visualization of training results and predictions
-- **Scikit-learn** – For model evaluation (confusion matrix, classification report)
-- **NumPy** – For array and numerical operations
-- **Google Colab** – Cloud-based platform for model development
-- **ImageDataGenerator** – For augmenting image data
+- **TensorFlow** & **Keras** – For building and training the CNN  
+- **Matplotlib** – For visualization of training results and predictions  
+- **Scikit-learn** – For model evaluation (confusion matrix, classification report)  
+- **NumPy** – For array and numerical operations  
+- **Google Colab** – Cloud-based platform for model development  
+- **ImageDataGenerator** – For augmenting image data  
 
 ---
 
 ## 📁 Dataset Structure
 
 The project expects the dataset to be organized as follows:
-
 deepfake/
 ├── Train/
-│   ├── real/
-│   └── fake/
+│ ├── real/
+│ └── fake/
 └── Test/
-    ├── real/
-    └── fake/
----
-
+├── real/
+└── fake/  
 
 ---
 
@@ -70,6 +66,8 @@ deepfake/
 | 1️⃣1️⃣ | **Evaluate on test set** – Predict on unseen data and compute accuracy |
 | 1️⃣2️⃣ | **Confusion matrix & report** – Print performance metrics |
 | 1️⃣3️⃣ | **Single image prediction** – Upload and classify any image in real time |
+
+---
 
 ---
 
@@ -94,22 +92,19 @@ The final part allows the user to upload an image and classify it as real or fak
 
 ## 📌 Key Highlights
 
-- End-to-end pipeline for image classification
-- Data loading, augmentation, and model training included
-- Interactive prediction on user-uploaded image
-- Easily extendable to video deepfake detection
+- End-to-end pipeline for image classification  
+- Data loading, augmentation, and model training included  
+- Interactive prediction on user-uploaded image  
+- Easily extendable to video deepfake detection  
 
 ---
 
 ## 🚀 How to Use
 
-1. Upload the dataset to Google Drive in the correct folder structure.
-2. Open the notebook in Google Colab.
-3. Run all cells step-by-step.
-4. Upload a test image to classify in real-time.
-
----
-
+1. Upload the dataset to Google Drive in the correct folder structure.  
+2. Open the notebook in Google Colab.  
+3. Run all cells step-by-step.  
+4. Upload a test image to classify in real-time.  
 
 ---
 
@@ -122,7 +117,4 @@ This project is free and open-source for educational and research use.
 ## 🙌 Acknowledgements
 
 This project was developed as part of my learning journey into **Computer Vision** and **Deep Learning**. Inspired by real-world concerns of digital authenticity, it demonstrates the potential of CNNs and TensorFlow in practical AI applications.
-
-"""
-
 
